@@ -15,7 +15,7 @@ public class HelloControllerTest {
     @Test
     public void sayHelloShouldReturnDefaultMessage() {
         String body = this.restTemplate.getForObject("/hello", String.class);
-        assertThat(body).isEqualTo("Hello World! This is a Spring Application.");
+        assertThat(body).isEqualTo("Hello World! This is a Spring Application - AB.");
     }
 }
 

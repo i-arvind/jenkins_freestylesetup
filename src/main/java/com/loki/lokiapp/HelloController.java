@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello World! This is a Spring Application.";
+        return "Hello World! This is a Spring Application - AB.";
     }
 }
 
